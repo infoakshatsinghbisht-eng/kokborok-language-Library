@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kokborok"
+version = "1.0.0"
+description = "Kokborok (Kókborok) Language Library: 100,000+ Headwords, 300,000+ Inflections, Multi-dialect Translation, NLP Toolkit, and Tripura Cultural Heritage"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "Akshat Singh Bisht", email = "infoakshatsinghbisht@gmail.com" }
+]
+maintainers = [
+    { name = "Akshat Singh Bisht", email = "infoakshatsinghbisht@gmail.com" }
+]
+keywords = [
+    "kokborok",
+    "tripura",
+    "agartala",
+    "bodo-garo",
+    "sino-tibetan",
+    "northeast-india",
+    "language-preservation",
+    "nlp",
+    "linguistics",
+    "translation"
+]
+
+[project.urls]
+Homepage = "https://akshatsinghbisht.com/"
+Documentation = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-library/blob/main/DOCUMENTATION.md"
+Repository = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-library"
+Issues = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-library/issues"
+
+[project.scripts]
+kokborok = "kokborok.cli:main"

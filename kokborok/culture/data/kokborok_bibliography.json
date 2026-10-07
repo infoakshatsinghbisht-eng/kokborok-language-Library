@@ -1,0 +1,74 @@
+[
+  {
+    "id": "KB-001",
+    "title": "Kókborokma (Kokborok Grammar)",
+    "author": "Radhamohan Thakur & Doulot Ahmad",
+    "year": "1897-1900",
+    "type": "Grammar / Philology",
+    "script": "Bengali",
+    "publisher": "Tripura State Press"
+  },
+  {
+    "id": "KB-002",
+    "title": "Bhasha Shiksha Kok-borok",
+    "author": "Nirmalendu Acharya",
+    "year": "1980",
+    "type": "Language Learning / Grammar",
+    "script": "Bengali & Roman",
+    "publisher": "Chanchala Prakashani, Agartala"
+  },
+  {
+    "id": "KB-003",
+    "title": "A Book of Kokborok Novel",
+    "author": "Atul Debbarma",
+    "year": "1980",
+    "type": "Novel / Fiction",
+    "script": "Bengali & Roman",
+    "publisher": "Agartala"
+  },
+  {
+    "id": "KB-004",
+    "title": "Kokborok Dha Dha (Proverbs and Riddles)",
+    "author": "Tribal Research and Cultural Institute",
+    "year": "1985",
+    "type": "Folklore / Proverbs",
+    "script": "Bengali",
+    "publisher": "Government of Tripura"
+  },
+  {
+    "id": "KB-005",
+    "title": "Concise Kokborok-English-Bengali Dictionary",
+    "author": "Binoy Debbarma",
+    "year": "1994",
+    "type": "Dictionary",
+    "script": "Roman & Bengali",
+    "publisher": "Agartala"
+  },
+  {
+    "id": "KB-006",
+    "title": "Kokborok Swrongma (Learning Kokborok)",
+    "author": "Tripura Tribal Cultural Centre",
+    "year": "1990",
+    "type": "Primer / Reader",
+    "script": "Bengali & Roman",
+    "publisher": "Directorate of Tribal Research"
+  },
+  {
+    "id": "KB-007",
+    "title": "Rajmala (The Chronicle of the Kings of Tripura)",
+    "author": "Court Historians / Kailash Chandra Singha",
+    "year": "1896",
+    "type": "Royal Chronicle / History",
+    "script": "Bengali & Kokborok",
+    "publisher": "Comilla"
+  },
+  {
+    "id": "KB-008",
+    "title": "Haping Garingo Chibuk Luku (Snake on the Hill)",
+    "author": "Chandrakanta Murasingh",
+    "year": "1995",
+    "type": "Poetry Anthology",
+    "script": "Roman",
+    "publisher": "Sahitya Akademi"
+  }
+]

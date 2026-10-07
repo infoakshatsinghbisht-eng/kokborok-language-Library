@@ -1,0 +1,100 @@
+[
+  {
+    "kokborok": "Khulumkha",
+    "english": "Greetings / Hello",
+    "hindi": "नमस्ते / प्रणाम",
+    "bengali": "নমস্কার",
+    "category": "greeting"
+  },
+  {
+    "kokborok": "Hambai",
+    "english": "Thank you",
+    "hindi": "धन्यवाद / शुक्रिया",
+    "bengali": "ধন্যবাদ",
+    "category": "courtesy"
+  },
+  {
+    "kokborok": "Nwng bahai tong?",
+    "english": "How are you?",
+    "hindi": "आप कैसे हैं?",
+    "bengali": "আপনি কেমন আছেন?",
+    "category": "conversation"
+  },
+  {
+    "kokborok": "Ang kaham tong",
+    "english": "I am fine / I am doing well",
+    "hindi": "मैं ठीक हूँ",
+    "bengali": "আমি ভালো আছি",
+    "category": "conversation"
+  },
+  {
+    "kokborok": "Nini mung tamo?",
+    "english": "What is your name?",
+    "hindi": "आपका नाम क्या है?",
+    "bengali": "আপনার নাম কি?",
+    "category": "conversation"
+  },
+  {
+    "kokborok": "Ani mung...",
+    "english": "My name is...",
+    "hindi": "मेरा नाम... है",
+    "bengali": "আমার নাম...",
+    "category": "conversation"
+  },
+  {
+    "kokborok": "Kaham sal",
+    "english": "Good morning",
+    "hindi": "शुभ प्रभात",
+    "bengali": "শুভ সকাল",
+    "category": "greeting"
+  },
+  {
+    "kokborok": "Kaham hor",
+    "english": "Good night",
+    "hindi": "शुभ रात्रि",
+    "bengali": "শুভ রাত্রি",
+    "category": "greeting"
+  },
+  {
+    "kokborok": "Nwng boro thangnai?",
+    "english": "Where are you going?",
+    "hindi": "तुम कहाँ जा रहे हो?",
+    "bengali": "তুমি কোথায় যাচ্ছো?",
+    "category": "direction"
+  },
+  {
+    "kokborok": "Oro phai",
+    "english": "Come here",
+    "hindi": "यहाँ आओ",
+    "bengali": "এখানে এসো",
+    "category": "command"
+  },
+  {
+    "kokborok": "Aro thang",
+    "english": "Go there",
+    "hindi": "वहाँ जाओ",
+    "bengali": "সেখানে যাও",
+    "category": "command"
+  },
+  {
+    "kokborok": "Ang nungno hamjakgo",
+    "english": "I love you",
+    "hindi": "मैं तुमसे प्यार करता हूँ",
+    "bengali": "আমি তোমাকে ভালোবাসি",
+    "category": "affection"
+  },
+  {
+    "kokborok": "Mai chaphai di",
+    "english": "Please come to have food",
+    "hindi": "कृपया भोजन करने आइए",
+    "bengali": "ভাত খেতে আসুন",
+    "category": "hospitality"
+  },
+  {
+    "kokborok": "Bwsuk mankha?",
+    "english": "How much does it cost?",
+    "hindi": "इसका कितना दाम है?",
+    "bengali": "এটার দাম কত?",
+    "category": "market"
+  }
+]

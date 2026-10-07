@@ -1,0 +1,23 @@
+[
+  {
+    "kokborok": "Kuthung salo achuk, mwkhang khorang kwrwy.",
+    "english": "Sits in the hot sun all day, has no face and makes no sound. (Answer: Stone / Hati)",
+    "hindi": "धूप में बैठा रहता है, न चेहरा है न आवाज़। (उत्तर: पत्थर)",
+    "bengali": "রোদে বসে থাকে, মুখ নেই শব্দ নেই। (উত্তর: পাথর)",
+    "answer": "Hathai (Stone)"
+  },
+  {
+    "kokborok": "Kwthang tongkhe buphang, thwikhe bolong.",
+    "english": "While alive it is a green stalk, when dead it warms the hearth. (Answer: Firewood / Bamboo)",
+    "hindi": "जीवित रहे तो हरा पौधा, मृत हो तो आग की लकड़ी। (उत्तर: बांस / लकड़ी)",
+    "bengali": "জীবিত থাকলে সবুজ বাঁশ, মরে গেলে জ্বালানি। (উত্তর: বাঁশ / কাঠ)",
+    "answer": "Wa (Bamboo)"
+  },
+  {
+    "kokborok": "Sal-hor tongkhe twio kiphil, kwsano kwswng ya.",
+    "english": "Day and night stays in the water, yet never catches cold. (Answer: Fish)",
+    "hindi": "दिन-रात पानी में रहे फिर भी जुकाम न हो। (उत्तर: मछली)",
+    "bengali": "দিন-রাত জলে থাকে কিন্তু ঠান্ডা লাগে না। (উত্তর: মাছ)",
+    "answer": "A (Fish)"
+  }
+]
