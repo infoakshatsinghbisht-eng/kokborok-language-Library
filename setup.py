@@ -7,7 +7,7 @@ readme_path = os.path.join(here, "README.md")
 long_description = open(readme_path, encoding="utf-8").read() if os.path.exists(readme_path) else ""
 
 setup(
-    name="kokborok-language-library",
+    name="kokborok",
     version="1.0.0",
     author="Akshat Singh Bisht",
     author_email="infoakshatsinghbisht@gmail.com",
