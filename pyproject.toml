@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kokborok"
+name = "kokborok-language-library"
 version = "1.0.0"
 description = "Kokborok (Kókborok) Language Library: 100,000+ Headwords, 300,000+ Inflections, Multi-dialect Translation, NLP Toolkit, and Tripura Cultural Heritage"
 readme = "README.md"
 requires-python = ">=3.8"
-license = "MIT"
+license = { text = "MIT" }
 authors = [
     { name = "Akshat Singh Bisht", email = "infoakshatsinghbisht@gmail.com" }
 ]
@@ -27,12 +27,25 @@ keywords = [
     "linguistics",
     "translation"
 ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: English",
+]
 
 [project.urls]
 Homepage = "https://akshatsinghbisht.com/"
-Documentation = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-library/blob/main/DOCUMENTATION.md"
-Repository = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-library"
-Issues = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-library/issues"
+Documentation = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library/blob/main/DOCUMENTATION.md"
+Repository = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library"
+Issues = "https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library/issues"
 
 [project.scripts]
 kokborok = "kokborok.cli:main"

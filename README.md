@@ -27,7 +27,7 @@ Built with **105,151 quadri-lingual headwords** (Kokborok-English-Hindi-Bengali)
 ## 📦 Installation
 
 ```bash
-pip install kokborok
+pip install kokborok-language-library
 ```
 
 Or install from source:

@@ -7,7 +7,7 @@ readme_path = os.path.join(here, "README.md")
 long_description = open(readme_path, encoding="utf-8").read() if os.path.exists(readme_path) else ""
 
 setup(
-    name="kokborok",
+    name="kokborok-language-library",
     version="1.0.0",
     author="Akshat Singh Bisht",
     author_email="infoakshatsinghbisht@gmail.com",
@@ -16,14 +16,14 @@ setup(
     description="Kokborok (Kókborok) Language Library: 100,000+ Headwords, 300,000+ Inflections, Multi-dialect Translation, NLP Toolkit, and Tripura Cultural Heritage",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/infoakshatsinghbisht-eng/kokborok-language-library",
+    url="https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library",
     project_urls={
         "Homepage": "https://akshatsinghbisht.com/",
-        "GitHub": "https://github.com/infoakshatsinghbisht-eng/kokborok-language-library",
+        "GitHub": "https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library",
         "LinkedIn": "https://www.linkedin.com/in/akshat-singh-bisht-digital-performance-marketing-specialist/",
         "Amazon Author": "https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28",
         "ResearchGate": "https://www.researchgate.net/profile/Akshat-Bisht-8",
-        "Bug Tracker": "https://github.com/infoakshatsinghbisht-eng/kokborok-language-library/issues",
+        "Bug Tracker": "https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library/issues",
     },
     packages=find_packages(exclude=["tests*", "examples*"]),
     include_package_data=True,
