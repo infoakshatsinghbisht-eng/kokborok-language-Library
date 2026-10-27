@@ -1,4 +1,4 @@
-﻿name: Publish to PyPI
+name: Publish to PyPI
 
 on:
   release:
@@ -12,9 +12,13 @@ jobs:
   pypi-publish:
     name: Build and publish to PyPI
     runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/kokborok
     permissions:
-      id-token: write  # Mandatory for Trusted Publishing (OIDC)
-      contents: read
+      id-token: write      # Mandatory for PyPI Trusted Publishing (OIDC) & Sigstore Provenance
+      contents: write     # For repository releases and tags
+      attestations: write # For GitHub Artifact Attestations
 
     steps:
     - name: Checkout source code
@@ -38,8 +42,12 @@ jobs:
         ls -la dist/
         python -m twine check dist/*
 
+    - name: Generate build provenance attestation
+      uses: actions/attest-build-provenance@v2
+      with:
+        subject-path: 'dist/*'
+
     - name: Publish package distributions to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
-        password: ${{ secrets.PYPI_API_TOKEN }}
         skip-existing: true

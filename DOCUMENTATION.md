@@ -10,7 +10,7 @@ Comprehensive API and architectural reference manual for the `kokborok` Python l
 - **Email**: `infoakshatsinghbisht@gmail.com`
 - **Website**: [https://akshatsinghbisht.com/](https://akshatsinghbisht.com/)
 - **Repository**: [https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library](https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library)
-- **Package Version**: `1.0.0`
+- **Package Version**: `1.1.0`
 - **ISO 639-3 Code**: `trp`
 - **License**: MIT
 

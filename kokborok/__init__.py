@@ -9,7 +9,7 @@ grammar parsing, verbal conjugation, 300,000+ morphological inflections, 105,000
 numeral classifiers, calendar, cultural heritage, and universal multi-lingual translation.
 """
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 __author__ = "Akshat Singh Bisht"
 __email__ = "infoakshatsinghbisht@gmail.com"
 __maintainer__ = "Akshat Singh Bisht"

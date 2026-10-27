@@ -4,7 +4,7 @@ import kokborok
 
 class TestKokborokTopLevel(unittest.TestCase):
     def test_metadata(self):
-        self.assertEqual(kokborok.__version__, "1.0.0")
+        self.assertEqual(kokborok.__version__, "1.1.0")
         self.assertEqual(kokborok.ISO_639_3, "trp")
         self.assertEqual(kokborok.NATIVE_NAME, "Kókborok")
 
