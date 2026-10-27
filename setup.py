@@ -13,7 +13,7 @@ setup(
     author_email="infoakshatsinghbisht@gmail.com",
     maintainer="Akshat Singh Bisht",
     maintainer_email="infoakshatsinghbisht@gmail.com",
-    description="Kokborok (Kókborok) Language Library: 100,000+ Headwords, 300,000+ Inflections, Multi-dialect Translation, NLP Toolkit, and Tripura Cultural Heritage",
+    description="Kokborok (Kókborok) Language Library: 500,000+ Headwords, 180 Classical Grammar Rules, 1,600,000+ Inflections, 225 Digitized Books, and Tripura Cultural Heritage",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/infoakshatsinghbisht-eng/kokborok-language-Library",
@@ -29,7 +29,7 @@ setup(
     include_package_data=True,
     package_data={
         "kokborok.lexicon": ["data/*.json"],
-        "kokborok.culture": ["data/*.json"],
+        "kokborok.culture": ["data/*.json", "data/books/*.json"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",

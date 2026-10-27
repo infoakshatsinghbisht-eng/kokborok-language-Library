@@ -1,7 +1,7 @@
 [
   {
     "kokborok": "Kuthung salo achuk, mwkhang khorang kwrwy.",
-    "english": "Sits in the hot sun all day, has no face and makes no sound. (Answer: Stone / Hati)",
+    "english": "Sits in the hot sun all day, has no face and makes no sound. (Answer: Stone / Hathai)",
     "hindi": "धूप में बैठा रहता है, न चेहरा है न आवाज़। (उत्तर: पत्थर)",
     "bengali": "রোদে বসে থাকে, মুখ নেই শব্দ নেই। (উত্তর: পাথর)",
     "answer": "Hathai (Stone)"
@@ -19,5 +19,33 @@
     "hindi": "दिन-रात पानी में रहे फिर भी जुकाम न हो। (उत्तर: मछली)",
     "bengali": "দিন-রাত জলে থাকে কিন্তু ঠান্ডা লাগে না। (উত্তর: মাছ)",
     "answer": "A (Fish)"
+  },
+  {
+    "kokborok": "Khorok kotor yakung kwrwy, twima phai-khe bi-o.",
+    "english": "Has a big body but no legs, glides swiftly when water arrives. (Answer: Boat / Gwdna)",
+    "hindi": "बड़ा शरीर पर पैर नहीं, पानी आते ही तैरता है। (उत्तर: नाव)",
+    "bengali": "বড় শরীর কিন্তু পা নেই, জল পেলে ভেসে চলে। (উত্তর: নৌকা)",
+    "answer": "Gwdna (Boat)"
+  },
+  {
+    "kokborok": "Mokol chuku tong-o, nu-ya phuh.",
+    "english": "Has nine eyes along its body, yet cannot see a thing. (Answer: Bamboo Flute / Sumui)",
+    "hindi": "नौ आँखें हैं पर देख नहीं सकता। (उत्तर: बाँसुरी)",
+    "bengali": "নয়টি চোখ আছে কিন্তু দেখতে পায় না। (উত্তর: বাঁশি)",
+    "answer": "Sumui (Flute)"
+  },
+  {
+    "kokborok": "Khorok-o khum bar-o, hor phai-khe thum-o.",
+    "english": "Blossoms upon the head during the day, closes when night comes. (Answer: Umbrella / Traditional bamboo hat)",
+    "hindi": "दिन में सिर पर फूल की तरह खिलता है, रात होते ही सिमट जाता है। (उत्तर: छाता / टोपी)",
+    "bengali": "দিনে মাথায় ফোটে, রাতে বন্ধ হয়। (উত্তর: ছাতা / মাথাল)",
+    "answer": "Chhata / Khupri (Bamboo hat)"
+  },
+  {
+    "kokborok": "Kwchwk kisa khorok-o thung, borok cha-khe mokol-o twi phai-o.",
+    "english": "Tiny and red, sits high; when human eats it, tears stream from eyes. (Answer: Wild Bird's Eye Chili / Mosdeng chili)",
+    "hindi": "छोटी और लाल, खाते ही आँखों में पानी आ जाता है। (उत्तर: मिर्च)",
+    "bengali": "ছোট ও লাল, খেলে চোখে জল আসে। (উত্তর: লঙ্কা / মরিচ)",
+    "answer": "Mwsla / Jal (Chili)"
   }
 ]

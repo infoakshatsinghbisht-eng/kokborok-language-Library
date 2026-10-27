@@ -59,7 +59,7 @@
     "kokborok": "Nwng boro thangnai?",
     "english": "Where are you going?",
     "hindi": "तुम कहाँ जा रहे हो?",
-    "bengali": "তুমি কোথায় যাচ্ছো?",
+    "bengali": "তুমি কোথায় যাচ্ছো?",
     "category": "direction"
   },
   {
@@ -96,5 +96,82 @@
     "hindi": "इसका कितना दाम है?",
     "bengali": "এটার দাম কত?",
     "category": "market"
+  },
+  {
+    "kokborok": "Tini sal kaham",
+    "english": "Today is a beautiful day",
+    "hindi": "आज का दिन सुंदर है",
+    "bengali": "আজকের দিনটি সুন্দর",
+    "category": "conversation"
+  },
+  {
+    "kokborok": "Nwng tamo swio?",
+    "english": "What are you writing?",
+    "hindi": "तुम क्या लिख रहे हो?",
+    "bengali": "তুমি কি লিখছ?",
+    "category": "conversation"
+  },
+  {
+    "kokborok": "Watwi wat-tong",
+    "english": "It is raining right now",
+    "hindi": "बारिश हो रही है",
+    "bengali": "বৃষ্টি পড়ছে",
+    "category": "weather"
+  },
+  {
+    "kokborok": "Kiphil-wi phai-di",
+    "english": "Please come back again",
+    "hindi": "कृपया वापस आइए",
+    "bengali": "আবার ফিরে আসুন",
+    "category": "farewell"
+  },
+  {
+    "kokborok": "Kokborok salni hamkrai",
+    "english": "Happy Kokborok Day (19 January)",
+    "hindi": "कॉकबोरोक दिवस की शुभकामनाएँ",
+    "bengali": "ককবরক দিবসের শুভেচ্ছা",
+    "category": "celebration"
+  },
+  {
+    "kokborok": "Garia pujani hamkrai",
+    "english": "Happy Garia Puja festival greetings",
+    "hindi": "गरिया पूजा की हार्दिक शुभकामनाएँ",
+    "bengali": "গরিয়া পূজার শুভেচ্ছা",
+    "category": "celebration"
+  },
+  {
+    "kokborok": "Buisuni hamkrai",
+    "english": "Happy Buisu / New Year celebrations",
+    "hindi": "बुइसु / नववर्ष की शुभकामनाएँ",
+    "bengali": "বুইসুর শুভেচ্ছা",
+    "category": "celebration"
+  },
+  {
+    "kokborok": "Ta uansuk-di",
+    "english": "Do not worry",
+    "hindi": "चिंता मत कीजिए",
+    "bengali": "চিন্তা করবেন না",
+    "category": "courtesy"
+  },
+  {
+    "kokborok": "Bahai kok?",
+    "english": "What news? / What's up?",
+    "hindi": "क्या खबर है?",
+    "bengali": "কি খবর?",
+    "category": "conversation"
+  },
+  {
+    "kokborok": "Ang buphang son-tong",
+    "english": "I am working in the mountain field",
+    "hindi": "मैं खेत में काम कर रहा हूँ",
+    "bengali": "আমি পাহাড়ে কাজ করছি",
+    "category": "daily_life"
+  },
+  {
+    "kokborok": "Kham dok-di!",
+    "english": "Beat the drum!",
+    "hindi": "ढोल बजाइए!",
+    "bengali": "ঢোল বাজাও!",
+    "category": "music"
   }
 ]

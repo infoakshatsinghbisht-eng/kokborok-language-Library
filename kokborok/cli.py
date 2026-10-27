@@ -6,6 +6,12 @@ import sys
 import json
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:
+            pass
+
     parser = argparse.ArgumentParser(
         prog="kokborok",
         description="Kokborok Language Processing and Cultural Heritage Toolkit"
@@ -28,6 +34,18 @@ def main():
 
     p_cult = subparsers.add_parser("culture", help="View cultural information")
     p_cult.add_argument("topic", choices=["festivals", "authors", "epics", "kinship", "months", "days"], help="Topic to display")
+
+    p_books = subparsers.add_parser("books", help="List digitized books in Kokborok library")
+    p_books.add_argument("--genre", default=None, help="Filter books by genre")
+    p_books.add_argument("--limit", type=int, default=20, help="Maximum number of books to display")
+
+    p_read = subparsers.add_parser("read", help="Read a digitized book page-by-page")
+    p_read.add_argument("book", help="Book ID or title substring")
+    p_read.add_argument("--page", type=int, default=1, help="Page number to read (1-indexed)")
+
+    p_sbooks = subparsers.add_parser("search-books", help="Search keyword across all digitized books")
+    p_sbooks.add_argument("query", help="Keyword to search")
+    p_sbooks.add_argument("--limit", type=int, default=10, help="Max results")
 
     args = parser.parse_args()
     if not args.command:
@@ -81,6 +99,33 @@ def main():
         elif args.topic == "days":
             for d in kokborok.get_days():
                 print(f"- {d['kokborok']}: {d['english']}")
+
+    elif args.command == "books":
+        all_b = kokborok.list_books()
+        if args.genre:
+            all_b = [b for b in all_b if args.genre.lower() in b.get("genre", "").lower()]
+        print(f"=== KOKBOROK DIGITIZED BOOKS LIBRARY ({len(all_b)} of {kokborok.total_books()} shown) ===")
+        for b in all_b[:args.limit]:
+            print(f"- [{b['id']}] {b['title']} ({b.get('year', 'N/A')}) | {b['total_pages']} pp, {b['total_words']} words")
+
+    elif args.command == "read":
+        b = kokborok.get_book(args.book)
+        if not b:
+            print(f"Error: Book '{args.book}' not found in library.")
+            sys.exit(1)
+        txt = b.get_page(args.page)
+        if txt is None:
+            print(f"Error: Page {args.page} not found. Book has {b.total_pages} pages.")
+            sys.exit(1)
+        print(f"=== {b.title} (Page {args.page}/{b.total_pages}) ===")
+        print(txt)
+
+    elif args.command == "search-books":
+        results = kokborok.search_books(args.query, max_results=args.limit)
+        print(f"=== Search results for '{args.query}' in digitized books ({len(results)} matches) ===")
+        for r in results:
+            print(f"\n[{r['book_title']} - Page {r['page_number']}]:")
+            print(f"  {r['snippet']}")
 
 if __name__ == "__main__":
     main()

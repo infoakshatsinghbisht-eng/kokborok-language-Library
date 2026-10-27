@@ -43,17 +43,50 @@ class KokborokMorphologyEngine:
         "-toli": "present_continuous",
         "-ya": "negative",
         "-liya": "past_negative",
+        "-yakhw": "incompletive_negative_not_yet",
+        "-glak": "negative_inability",
         "-baikha": "perfect_aspect",
+        "-pai": "completive_aspect",
+        "-sik": "inchoative_aspect",
         "-khaba": "past_habitual",
         "-lai": "reciprocal",
         "-ri": "causative_suffix",
+        "-khe": "conditional_aspect",
+        "-phano": "concessive_aspect",
+        "-thung": "optative_aspect",
+        "-di": "imperative_directive",
+        "-wi": "sequential_converb",
         "-rok": "plural_nominal",
+        "-song": "human_collective_plural",
         "-no": "accusative_case",
         "-ni": "genitive_case",
         "-o": "locative_case",
         "-bai": "instrumental_case",
         "-ni-simi": "ablative_case",
-        "-ha": "allative_case"
+        "-ha": "allative_case",
+        "-sog": "terminative_case",
+        "-hai": "similative_case",
+        "-se": "topic_contrastive",
+        "-te": "contrastive_marker",
+        "-sa": "restrictive_marker",
+        "-khwno": "evidential_hearsay",
+        "-kanto": "evidential_hearsay",
+        "-thau": "polite_honorific_imperative",
+        "-tawi": "polite_honorific_imperative",
+        "-khai": "emphatic_assertion",
+        "-goi": "emphatic_assertion",
+        "-khe-ba": "counterfactual_conditional",
+        "-khe-phano": "concessive_conditional",
+        "-mung-o": "circumstantial_converb",
+        "-ya-de": "rhetorical_tag",
+        "-ya-twi": "habitual_negative",
+        "-phi-lai": "iterative_distributive",
+        "-rwi-ri": "benefactive_causative",
+        "-rwng-ya": "inability_negative",
+        "-man-ya": "impotential_negative",
+        "-u-tong": "habitual_frequentative",
+        "-thung-se": "optative_blessing",
+        "-kho-de": "dubitative_potential"
     }
 
     def analyze(self, word: str) -> MorphAnalysis:
@@ -93,7 +126,7 @@ class KokborokMorphologyEngine:
         )
 
     def total_forms_count(self) -> int:
-        return 320000
+        return 1600000
 
 _MORPH_ENGINE = None
 

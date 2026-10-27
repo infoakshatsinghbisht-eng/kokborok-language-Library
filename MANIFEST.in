@@ -1,0 +1,5 @@
+include README.md
+include DOCUMENTATION.md
+include ALL_KOKBOROK_BOOKS_CATALOG.md
+recursive-include kokborok/lexicon/data *.json
+recursive-include kokborok/culture/data *.json

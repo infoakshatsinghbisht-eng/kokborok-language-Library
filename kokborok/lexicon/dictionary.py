@@ -10,6 +10,7 @@ DATA_DIR = Path(__file__).resolve().parent / "data"
 class KokborokDictionary:
     def __init__(self):
         self._words: Dict[str, Dict[str, Any]] = {}
+        self._unhyphenated: Dict[str, Dict[str, Any]] = {}
         self._phrases: List[Dict[str, Any]] = []
         self._proverbs: List[Dict[str, Any]] = []
         self._riddles: List[Dict[str, Any]] = []
@@ -21,7 +22,11 @@ class KokborokDictionary:
             with open(w_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 for item in data:
-                    self._words[item["kokborok"].lower()] = item
+                    kw = item["kokborok"].lower().strip()
+                    self._words[kw] = item
+                    unh = kw.replace("-", "").replace(" ", "")
+                    if unh not in self._unhyphenated:
+                        self._unhyphenated[unh] = item
 
         p_file = DATA_DIR / "phrases.json"
         if p_file.exists():
@@ -45,24 +50,15 @@ class KokborokDictionary:
         # 1. Exact match in words
         if w in self._words:
             return self._words[w]
-        # 2. Match in phrases
+        # 2. Match unhyphenated forms (e.g. 'swinai' -> 'swi-nai')
+        w_clean = w.replace("-", "").replace(" ", "")
+        if w_clean in self._unhyphenated:
+            return self._unhyphenated[w_clean]
+        # 3. Match in phrases
         for p in self._phrases:
             if p["kokborok"].lower().strip(".,!?:") == w:
                 return p
-        # 3. Morphological root fallback
-        from .morphology import get_morphology_engine
-        engine = get_morphology_engine()
-        analysis = engine.analyze(w)
-        if analysis.root in self._words:
-            entry = self._words[analysis.root].copy()
-            entry["note"] = f"Derived from root '{analysis.root}'"
-            entry["root"] = analysis.root
-            return entry
-        return None
-        # Exact match
-        if w in self._words:
-            return self._words[w]
-        # Morphological root fallback
+        # 4. Morphological root fallback
         from .morphology import get_morphology_engine
         engine = get_morphology_engine()
         analysis = engine.analyze(w)
